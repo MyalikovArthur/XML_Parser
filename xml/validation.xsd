@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://tourist.com/vouchers"
+        xmlns:vch="http://tourist.com/vouchers">
+    <element name="Tourist_vouchers">
+        <complexType>
+            <sequence>
+                <element name="voucher"
+                         type="vch:Voucher"
+                         maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="Voucher">
+        <sequence>
+            <element name="country" type="string" />
+            <element name="duration" type="positiveInteger" />
+            <element name="transport" type="vch:transport"/>
+            <element name="hotel" type="vch:hotel" minOccurs="0"/>
+            <element name="cost" type="vch:cost"/>
+        </sequence>
+        <attribute name="type" use="required">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="holiday"/>
+                    <enumeration value="excursion"/>
+                    <enumeration value="recreation"/>
+                    <enumeration value="pilgrimage"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="ID" use="required">
+            <simpleType>
+                <restriction base="ID">
+                    <pattern value="[A-Z][A-Z][0-9]{8}"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+    <complexType name="hotel">
+        <sequence>
+            <element name="meals" type="vch:meals"/>
+            <element name="tv" type="vch:tv"/>
+            <element name="air-conditioning" type="vch:air-conditioning"/>
+        </sequence>
+        <attribute name="stars" type="positiveInteger" use="required"/>
+    </complexType>
+    <complexType name="cost">
+        <sequence>
+            <element name="meals-cost" type="positiveInteger" minOccurs="0"/>
+            <element name="hotel-cost" type="positiveInteger" minOccurs="0"/>
+            <element name="transport-cost" type="positiveInteger" minOccurs="0"/>
+        </sequence>
+        <attribute name="amount" type="positiveInteger" use="required"/>
+    </complexType>
+    <simpleType name="transport">
+        <restriction base="string">
+            <enumeration value="plane"/>
+            <enumeration value="train"/>
+            <enumeration value="car"/>
+            <enumeration value="ship"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="meals">
+        <restriction base="string">
+            <enumeration value="RO"/>
+            <enumeration value="BB"/>
+            <enumeration value="HB"/>
+            <enumeration value="FB"/>
+            <enumeration value="AI"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="tv">
+        <restriction base="string">
+            <enumeration value="yes"/>
+            <enumeration value="no"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="air-conditioning">
+        <restriction base="string">
+            <enumeration value="yes"/>
+            <enumeration value="no"/>
+        </restriction>
+    </simpleType>
+</schema>

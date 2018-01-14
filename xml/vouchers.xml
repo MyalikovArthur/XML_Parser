@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vch:Tourist_vouchers xmlns:vch ="http://tourist.com/vouchers"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://tourist.com/vouchers //validation.xsd">
+    <voucher type="recreation" ID="BY15678948">
+        <country>Belarus</country>
+        <duration>30</duration>
+        <transport>car</transport>
+        <hotel stars="3">
+            <meals>FB</meals>
+            <tv>no</tv>
+            <air-conditioning>no</air-conditioning>
+        </hotel>
+        <cost amount="400">
+            <meals-cost>80</meals-cost>
+            <hotel-cost>300</hotel-cost>
+            <transport-cost>20</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="pilgrimage" ID="IL15564689">
+        <country>Israel</country>
+        <duration>1</duration>
+        <transport>train</transport>
+        <cost amount="50">
+            <transport-cost>50</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="holiday" ID="FR15597531">
+        <country>France</country>
+        <duration>7</duration>
+        <transport>plane</transport>
+        <hotel stars="4">
+            <meals>BB</meals>
+            <tv>yes</tv>
+            <air-conditioning>no</air-conditioning>
+        </hotel>
+        <cost amount="500">
+            <meals-cost>70</meals-cost>
+            <hotel-cost>350</hotel-cost>
+            <transport-cost>80</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="excursion" ID="PL15667871">
+        <country>Poland</country>
+        <duration>1</duration>
+        <transport>car</transport>
+        <cost amount="100">
+            <transport-cost>100</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="holiday" ID="TR15879879">
+        <country>Turkey</country>
+        <duration>5</duration>
+        <transport>train</transport>
+        <hotel stars="5">
+            <meals>AI</meals>
+            <tv>yes</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="400">
+            <meals-cost>130</meals-cost>
+            <hotel-cost>240</hotel-cost>
+            <transport-cost>30</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="excursion" ID="RU15654589">
+        <country>Russia</country>
+        <duration>4</duration>
+        <transport>train</transport>
+        <hotel stars="2">
+            <meals>RO</meals>
+            <tv>no</tv>
+            <air-conditioning>no</air-conditioning>
+        </hotel>
+        <cost amount="200">
+            <hotel-cost>160</hotel-cost>
+            <transport-cost>40</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="pilgrimage" ID="IN15678897">
+        <country>India</country>
+        <duration>4</duration>
+        <transport>train</transport>
+        <hotel stars="2">
+            <meals>RO</meals>
+            <tv>no</tv>
+            <air-conditioning>no</air-conditioning>
+        </hotel>
+        <cost amount="100">
+            <hotel-cost>70</hotel-cost>
+            <transport-cost>30</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="excursion" ID="BY15642675">
+        <country>Belarus</country>
+        <duration>1</duration>
+        <transport>car</transport>
+        <cost amount="30">
+            <transport-cost>30</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="recreation" ID="US15644689">
+        <country>USA</country>
+        <duration>14</duration>
+        <transport>plane</transport>
+        <hotel stars="4">
+            <meals>FB</meals>
+            <tv>no</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="1200">
+            <meals-cost>100</meals-cost>
+            <hotel-cost>500</hotel-cost>
+            <transport-cost>600</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="holiday" ID="DE15687951">
+        <country>Germany</country>
+        <duration>3</duration>
+        <transport>plane</transport>
+        <hotel stars="4">
+            <meals>RO</meals>
+            <tv>yes</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="250">
+            <hotel-cost>200</hotel-cost>
+            <transport-cost>50</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="excursion" ID="MX15782135">
+        <country>Mexico</country>
+        <duration>14</duration>
+        <transport>ship</transport>
+        <cost amount="450">
+            <transport-cost>450</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="recreation" ID="CN15888725">
+        <country>China</country>
+        <duration>30</duration>
+        <transport>plane</transport>
+        <hotel stars="4">
+            <meals>AI</meals>
+            <tv>yes</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="1500">
+            <meals-cost>400</meals-cost>
+            <hotel-cost>600</hotel-cost>
+            <transport-cost>500</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="holiday" ID="JP15777893">
+        <country>Japan</country>
+        <duration>5</duration>
+        <transport>plane</transport>
+        <hotel stars="5">
+            <meals>BB</meals>
+            <tv>yes</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="1200">
+            <meals-cost>200</meals-cost>
+            <hotel-cost>400</hotel-cost>
+            <transport-cost>500</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="excursion" ID="LV15333454">
+        <country>Latvia</country>
+        <duration>2</duration>
+        <transport>car</transport>
+        <cost amount="70">
+            <transport-cost>70</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="holiday" ID="LU15789548">
+        <country>Luxembourg</country>
+        <duration>2</duration>
+        <transport>train</transport>
+        <hotel stars="4">
+            <meals>AI</meals>
+            <tv>yes</tv>
+            <air-conditioning>yes</air-conditioning>
+        </hotel>
+        <cost amount="400">
+            <meals-cost>100</meals-cost>
+            <hotel-cost>200</hotel-cost>
+            <transport-cost>100</transport-cost>
+        </cost>
+    </voucher>
+    <voucher type="pilgrimage" ID="SA14897544">
+        <country>Saudi Arabia</country>
+        <duration>5</duration>
+        <transport>train</transport>
+        <cost amount="140">
+            <transport-cost>140</transport-cost>
+        </cost>
+    </voucher>
+</vch:Tourist_vouchers>

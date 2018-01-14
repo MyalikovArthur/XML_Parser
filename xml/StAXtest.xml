@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vch:Tourist_vouchers xmlns:vch ="http://tourist.com/vouchers"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://tourist.com/vouchers //validation.xsd">
+    <voucher type="holiday" ID="TS00000002">
+        <country>StAX</country>
+        <duration>1</duration>
+        <transport>car</transport>
+        <cost amount="200">
+            <transport-cost>200</transport-cost>
+        </cost>
+    </voucher>
+</vch:Tourist_vouchers>

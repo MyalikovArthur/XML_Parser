@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <File name="TxtAppender" fileName="log\log.txt">
+            <PatternLayout pattern="%date{DEFAULT} [%thread]: %-5level %logger - %msg%n"/>
+        </File>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%date{DEFAULT} [%thread]: %-5level %logger - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="TxtAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
